@@ -11,6 +11,8 @@ class CommentBox extends Component {
 
     handleSubmit = event => {
         event.preventDefault()
+
+        this.setState({comment: ''})
     };
 
     render() {
